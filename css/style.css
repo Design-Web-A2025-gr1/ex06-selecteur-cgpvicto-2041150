@@ -1,0 +1,52 @@
+
+#titrePage {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
+
+#paragraphe1::first-letter {
+    color: blueviolet !important;
+}
+
+p #lien{
+    color: inherit;
+}
+
+#lien{
+    text-decoration-style: wavy;
+    text-decoration-color: crimson;
+    text-decoration-skip-ink:none
+}
+
+#lien:hover{
+    background-color: yellow;
+    text-decoration-line: none;
+}
+
+p::first-letter {
+    color: green;
+}
+
+.titre:hover{
+    color:fuchsia;
+}
+
+div {
+    border-color:#daa520;
+    border-style: solid;
+    border-radius: 0.5cap;
+    width: 600px;
+    padding: 10px;
+    background-image: url(/assets/img/ex04_image_fond.jpg);
+    box-shadow:   10px 10px 5px lightslategray;
+}
+
